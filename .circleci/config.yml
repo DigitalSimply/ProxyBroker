@@ -12,7 +12,7 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: proxybroker serve --host 127.0.0.1 --port 8888 --types HTTP HTTPS --lvl High
+          command: $ proxybroker serve --host 127.0.0.1 --port 8888 --types HTTP HTTPS --lvl High
           name: serve
 
 workflows:
